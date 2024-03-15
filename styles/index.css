@@ -1,0 +1,10 @@
+*{
+   margin: 0%;
+   padding: 0%; 
+}
+
+:root {
+    --corPrincipal: rgb(252, 150, 247);
+    background-color: var(corPrincipal);
+}
+
