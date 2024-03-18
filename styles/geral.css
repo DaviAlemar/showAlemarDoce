@@ -1,0 +1,39 @@
+@font-face {
+    font-family: Madimi+One;
+    src: url(../fonts/Madimi_One/OFL.txt);
+    font-weight: normal;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Madimi+One', 'Arial Narrow', Arial, sans-serif;
+}
+
+:root {
+    --corPrincipal: rgb(252, 150, 247);
+    background-color: var(corPrincipal);
+}
+
+h3{
+    padding: 8px;
+    font-family: Madimi+One;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    margin: 0px 10px ;
+}
+#header{
+    width: 100%;
+    height: 80px;
+    background-color: var(--corPrincipal);
+    color: white;
+}
+
+#footer {
+    width: 100%;
+    height: 100px;
+    background-image: url(amit-lahav-3t07n27XK-w-unsplash.jpg);
+}
